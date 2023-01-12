@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  url-shortener-app:
+    build: .
+    environment:
+      ENVIRONMENT: "dev"
+    ports:
+      - "8080:8080"
+      - "9090:9090"
+  database:
+    image: "mysql:8.0.31"
+    environment:
+      MYSQL_DATABASE: "db"
+      MYSQL_USER: "root"
+      MYSQL_ROOT_PASSWORD: "root"
