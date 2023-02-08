@@ -2,10 +2,6 @@
 
 ## Objectif du challenge
 
-Dans l'optique de trouver le meilleur candidat pour rejoindre notre équipe, nous pensons que le moyen le plus efficace pour évaluer les compétences techniques d’une personne est de les mettre en pratique.
-
-C’est pourquoi nous vous soumettons ce petit défi.
-
 L’objectif de l’exercice est de nous faire une idée sur la façon dont vous mettez en pseudo-application une résolution de problématique DevOps : avec une partie technique minime et une préparation en avance mais surtout une présentation de votre solution lors d'une entrevue en personne. 
 
 Lorsque vos travaux vous paraissent satisfaisants, vous pouvez nous le rendre disponible via commit sur le repository github (Il est accessible seulement pour vous).
@@ -22,10 +18,6 @@ Avec pour objectif pour le DevOps de rendre le service plus simple à livrer/sur
 * Dockeriser le service Java
 * Automatiser le build
 * Proposer un plan de migration d'une VM simple à un environnement docker orchestré
-
-### Environnement actuel
-
-![](img/ArchitectureOld.png "Architecture actuel")
 
 #### Service Java
 
